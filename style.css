@@ -1,0 +1,26 @@
+body {
+  text-align: center;
+  background-image: url("https://th.bing.com/th/id/R.cb6d6798bd6b6e8b1615259afb01eb25?rik=h2oSeg9RmHStIA&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f05%2fGradient-mustache-wallpapers-hd-1920x1080.jpg&ehk=PXO2zsMuixd0Fg89zPqOfPTav2u2PHLg5Ak5puNLAYw%3d&risl=&pid=ImgRaw&r=0");
+  background-position: center;
+}
+
+h3 {
+  font-size: 25px !important;
+  
+}
+canvas {
+  border: 2px dashed rgb(9, 241, 40);
+animation-name: borda;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+
+}
+@keyframes borda {
+  form {
+    box-shadow: 1px  1px 38px rgb(226, 5, 189)
+  }
+to {
+  box-shadow: 1px  1px 38px rgb(7, 236, 45) 
+
+}
+}
